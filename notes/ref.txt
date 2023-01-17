@@ -1,0 +1,77 @@
+Java 
+
+
+    language            library/sdk                 framework 
+
+    Java                util, lang,                 Spring 
+                        jdbc, etc.
+
+    Python              ...                         django, flask
+
+    C# / VB             ..                          .net framework 
+
+    JavaScript          Bootstrap, react            Angular
+
+    Go Lang
+    ...
+    ..
+
+        |                       |                   |
+    programming             simplify            standardize the process 
+    capabilities            your tasks          of developing the app
+
+
+    ORM (object relational mapping) Tool 
+        - Hibernate / Hibernate JPA 
+        - toplink / EclipseLink
+        - iBatis / Mybatis
+
+
+    Testing Tools / frameworks 
+
+    Database engine 
+        - sqlite
+        - mysql 
+        - sql server 
+        - postgresql
+        - ...
+
+
+    IDE 
+        Eclipse / STS / IntelIJ Idea
+
+
+
+    Java 
+    ------
+
+            JVM - Java Virtual Machine 
+                    - responsible to execute the "byte code" on the machine / platform
+
+            JRE - Java Runtime Environment  
+                - JVM + set of libraries required to run java programs 
+
+            JDK - Java Development Kit 
+                - JRE + development tools i.e. java, javac, jar, etc. 
+
+
+            java code       ---> byte code 
+                                (understandable to JVM)
+
+
+
+            Environment setup 
+            ------------------
+                1. openjdk 11 
+                2. Eclipse IDE for Enterprise Java and Web Developers
+                3. MySQL community edition 
+
+    Java - object oriented programming 
+
+
+    Naming conventions / Best practices 
+
+
+    Class 
+
+    Object 
