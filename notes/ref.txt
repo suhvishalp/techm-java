@@ -66,6 +66,17 @@ Java
                 2. Eclipse IDE for Enterprise Java and Web Developers
                 3. MySQL community edition 
 
+
+    JavaSE - Standard Edition 
+        - core java, standard libraries i.e lang, utils, jdbc, io etc. 
+    
+    JavaEE - Enterprise Edition 
+        - web applications, web services, REST APIs etc.
+
+    JavaME - Micro Edition 
+        - application for small / embedded devices 
+
+
     Java - object oriented programming 
 
 
@@ -75,3 +86,83 @@ Java
     Class 
 
     Object 
+
+
+    Variables 
+    -------------
+        <<datatype>> varname;
+
+
+    Data Types in java 
+    ------------------- 
+        1. primitive data types 
+            - stores the values directly 
+            - there 8 primitive types 
+
+                byte        1 byte      -128 to 127
+                short       2 bytes 
+                int         4 bytes 
+                long        8 bytes
+                float       4 bytes 
+                double      8 bytes 
+                char        1 byte 
+                boolean     1 bit
+
+        2. Reference data types 
+            - store ref to the memory 
+            - all the class types, interface types are called ref types 
+
+                    String str;
+
+
+            Memory In java 
+            ---------------
+                    = static memory 
+                    = stack memory 
+                    = heap memory 
+
+
+        variables types 
+        ----------------
+
+        1. local variable 
+            - a variable declared inside a function / block is called local variable 
+            - memory for local vars will be allocated when the method is invoked, and destroyed when the method finishes its execution 
+            - it must be initialized before first use 
+
+
+        2. instance variable 
+            - declared inside a class, but outside any method/constructor/block
+            - memory is allocated when you create object of the class & destroyed when the object is deleted 
+
+            - instance variables have default values 
+                    numbers = 0
+                    booleans = false 
+                    ref types = null 
+
+            - instance variables can have access modifires i.edition    
+                         public, private, protected, default 
+
+
+        3. static variable 
+            - only 1 copy of static variable will be allocated 
+            - memory is created at the beginning of the program, when the class is loaded 
+            - accessibility and default values are similar to instance variables 
+            
+Garbadge collection 
+
+
+
+POJO 
+
+Java Bean 
+
+BO 
+
+SO 
+
+DAO 
+
+DTO 
+
+VO 
