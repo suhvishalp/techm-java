@@ -1,11 +1,21 @@
 
-public class Employee {
+
+
+public final class Employee {
 
 	private  int empID;		//instance variable / data member / properties
 	private String empName;
-	private double salary;
+	private  double salary;
 	
 	public static String companyName;
+	
+	public final void processSalary() {
+		
+	}
+	
+	public static void showEmp() {
+		System.out.println("Static method of emp class");
+	}
 	
 	public int getEmpID() {
 		return empID;

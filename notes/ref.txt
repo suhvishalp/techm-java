@@ -149,6 +149,65 @@ Java
             - memory is created at the beginning of the program, when the class is loaded 
             - accessibility and default values are similar to instance variables 
             
+
+Static Keyword 
+-----------------
+    - static variable 
+
+    - static method 
+
+    - static class 
+
+
+final keyword 
+---------------
+    - final variable 
+            - final variables cannot be modified 
+
+    - final method 
+            - a final method cannot be overridden in a child class
+
+    - final class 
+            - if a class if final, you cannot create subclasses
+
+System.in 
+----------
+    - The "standard" input stream. 
+    - This stream is already open and ready to supply input data.
+    -  Typically this stream corresponds to keyboard input or another input source specified by the host environment or user.
+
+
+System.out
+-----------
+
+
+Decision making statemetns 
+
+    if (boolean_expression) {
+        //code statements 
+        //code statements
+    }
+
+Array 
+    - collection or group of same type of values 
+    - in java Arrays are objects 
+    - the size of the array is fixed, it cannot be changed
+    - Arrays can store primitive values as well as references to objects 
+    
+
+    - Declare an array variable 
+        <<datatype>>[] varName; 
+
+        int[] nums; 
+        String [] names;
+        Employee []employees;
+        Student students[];
+
+    - create Array object 
+        arrVarName = new <dataype>[size];
+        nums = new int[5];
+
+
 Garbadge collection 
 
 
